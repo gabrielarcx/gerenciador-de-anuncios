@@ -7,7 +7,7 @@ describe("GET /api/ads", () => {
       `INSERT INTO ads (title, status) VALUES ('Anúncio Teste', 'active')`,
     );
 
-    const res = await request(app).get("/api/ads");
+    const res = await request(app).get("/api/ads
 
     expect(res.status).toBe(200);
     expect(res.body).toHaveLength(1);
