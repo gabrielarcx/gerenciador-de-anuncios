@@ -3,7 +3,7 @@ name: Deploy
 on:
   workflows: [CI]
   types:
-   - completed
+   - completed 
  
 jobs:
   deploy:
